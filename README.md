@@ -41,7 +41,7 @@ Ensure you have Python 3.6+ installed on your system. You can download Python fr
     python extract.py
     ```
 
-3. The script will scrape data from the HP RERA website, process it, and save it to `extracted_data.csv`.
+3. The script will scrape data from the HP RERA website, process it, and save it to `extract.csv`.
 
 ## File Descriptions
 
@@ -52,15 +52,12 @@ Ensure you have Python 3.6+ installed on your system. You can download Python fr
 
 The output of the script will be saved in a file named `extracted_data.csv` in the same directory as the script. The CSV file will contain the following columns:
 
-- Name
-- PAN No.
 - GSTIN No.
+- PAN No.
+- Name
 - Permanent Address
 
 ## Contributing
 
 Feel free to open issues or submit pull requests if you find any bugs or have suggestions for improvements.
 
-## License
-
-This project is licensed under the MIT License.
